@@ -22,6 +22,17 @@ h2 {
   font-size: 2rem;
 }
 
+
+h3 {
+    margin-top: 0.5rem;
+}
+h4 {
+    margin-top: 0.5rem;
+}
+h5 {
+    margin-top: 0.5rem;
+}
+
 /* Navigation Bar */
 .nav-bar {
   display: flex;
@@ -68,4 +79,45 @@ h2 {
   width: 250px;
   height: 250px;
   object-fit: scale-down;
+}
+
+/* Project section */
+
+.project-container {
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid gray;
+    margin: 1rem;
+    width: 450px;
+}
+
+.website-image {
+    width: 400px;
+    height: 300px;
+    object-fit: scale-down;
+}
+
+.about-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.project-card ul {
+    margin-top: 0.5rem;
+}
+.project-card li {
+    margin-left: 1.5rem;
+    list-style-type: circle;
 }
