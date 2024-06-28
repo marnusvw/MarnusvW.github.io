@@ -6,34 +6,34 @@
 }
 body {
   background-color: rgba(169, 169, 169, 50%);
+  color: rgb(9, 112, 17);
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: rgb(9, 112, 17);
 }
 
 h1 {
-  font-size: 3.5rem;
-  text-decoration: underline;
+  font-size: 2.5rem;
 }
 
 h2 {
   font-size: 2rem;
 }
 
-
 h3 {
-    margin-top: 0.5rem;
+  margin-top: 0.5rem;
 }
 h4 {
-    margin-top: 0.5rem;
+  margin-top: 0.5rem;
 }
 h5 {
-    margin-top: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 /* Navigation Bar */
+
 .nav-bar {
   display: flex;
   flex-direction: row;
@@ -46,17 +46,17 @@ h5 {
 .nav-bar ul {
   display: flex;
   flex-direction: row;
-  align-items: space-between;
 }
 
 .nav-bar li {
+  font-weight: 700;
   font-size: 1.5rem;
   list-style: none;
   margin: 0.5rem;
-  text-decoration: none;
 }
 
 /* About me section */
+
 .section-container {
   display: flex;
   justify-content: center;
@@ -85,40 +85,40 @@ h5 {
 /* Project section */
 
 .project-container {
-    margin: 2rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+  margin: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .project-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid gray;
-    margin: 1rem;
-    width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid gray;
+  margin: 1rem;
+  width: 450px;
 }
 
 .website-image {
-    width: 400px;
-    height: 300px;
-    object-fit: scale-down;
+  width: 400px;
+  height: 300px;
+  object-fit: scale-down;
 }
 
 .about-project {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1rem;
 }
 
 .project-card ul {
-    margin-top: 0.5rem;
+  margin-top: 0.5rem;
 }
 .project-card li {
-    margin-left: 1.5rem;
-    list-style-type: circle;
+  margin-left: 1.5rem;
+  list-style-type: circle;
 }
