@@ -114,17 +114,24 @@ p {
 }
 
 .about-project {
-  display: flex;
-  flex-direction: column;
+  text-align: center;
+  justify-content: center;
   align-items: center;
-  padding-bottom: 1rem;
+  padding: 1rem;
 }
 
 .project-card ul {
   margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
+
 .project-card li {
+  font-weight: bold;
+  color: darkblue;
+  margin: 0 1rem;
   font-size: 1.2rem;
-  margin-left: 1.5rem;
-  list-style-type: circle;
+  list-style-type: none;
+  text-decoration: underline;
 }
