@@ -1,0 +1,133 @@
+/* <-- Universal Styles --> */
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  color: #434343;
+}
+h1 {
+  font-size: 4.5rem;
+}
+h4 {
+  font-size: 2rem;
+}
+a {
+  transition: .5s;
+}
+
+a:hover {
+    font-size: 1.3rem;
+}
+
+/* <--- Nav Bar ---> */
+.navigation {
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+nav h1 {
+  color: #434343;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+.nav-link li {
+  list-style: none;
+  align-items: space-between;
+  font-size: 1.5rem;
+}
+
+.nav-link a {
+  color: #434343;
+}
+
+/* <--- Hero Banner ---> */
+
+.banner {
+  display: flex;
+  background-image: url(./Images/Banner_background.jpg);
+  height: 20rem;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+.content {
+  background-color: white;
+  justify-self: flex-end;
+  width: 100%;
+  top: 100px;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.content h2 {
+  width: 100%;
+  font-size: 3rem;
+}
+.content p {
+  padding-top: 1rem;
+  font-size: 1.5rem;
+}
+
+/* <--- Portfolio ---> */
+#portfolio {
+  padding-top: 4.375rem;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.image-container {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.image-container p {
+  font-size: 2rem;
+}
+.gallery img {
+  width: 200px;
+  height: 150px;
+  padding: 1rem;
+}
+
+/* <--- Team ---> */
+
+.team {
+  display: flex;
+  justify-content: center;
+  background-image: url(./Images/blurred-road.webp);
+}
+.team-img {
+  padding: 1rem 0;
+  color: white;
+  text-wrap: wrap;
+  width: 250px;
+}
+.team-img img {
+  height: 300px;
+  width: 220px;
+}
+
+/* <--- Footer ---> */
+.footer {
+  display: flex;
+  justify-content: center;
+}
+.footer h4 {
+  font-size: 1.5rem;
+  padding: 2rem 0;
+}

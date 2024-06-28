@@ -1,0 +1,86 @@
+/* <--- Universal Styles ---> */
+html {
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    font-size: 22px;
+}
+
+/* <-- Navigation ---> */
+.nav {
+    padding: 0px 10px;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo {
+    height: 50px;
+}
+.navigation {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.navigation li {
+    text-decoration: underline;
+    margin: 0 8px;
+}
+
+/* <--- Hero ---> */
+.mission {
+    display: flex;
+    width: 100%;
+    height: 700px;
+    background-image: url(./images/img-mission-background.jpg);
+    justify-content: center;
+    align-items: center;
+}
+.heading {
+    text-align: center;
+    width: 100%;
+    background-color: black;
+}
+
+/* <--- Gallery ---> */
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image {
+    text-align: center;
+    margin: 0 10px;
+}
+img {
+    width: 300px;
+    height: 200px;
+    
+}
+
+/* <--- Location ---> */
+.locations {
+    background-image: url(./images/img-locations-background.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+}
+
+.loc_box {
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 40px;
+    width: 300px;
+    background-color: black;
+}
+
+/* <--- Footer ---> */
+footer {
+    text-align: center;
+    height: 200px;
+}

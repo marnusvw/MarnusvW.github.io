@@ -1,0 +1,111 @@
+/* <--- Universal Styles ---> */
+
+h1 {
+    font-family: "Seymour One", sans-serif;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+}
+h2 {
+    font-family: "Bebas Neue";
+    color: #f829f1;
+    text-decoration: underline;
+    font-size: 35px;
+}
+h3 {
+    text-decoration: underline;   
+}
+p {
+    font-size: 16px;
+}
+section {
+    margin: 10px auto;
+}
+.data { 
+    background-color: cyan;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+}
+/* <--- Colors Section ---> */
+
+.col {
+    box-shadow: 2px 2px ;
+    font-size: 20px;
+    color: #fff;
+    display: inline-block;
+    overflow: hidden;
+    width: 150px;
+    
+    transition: all ease-in-out 0.3s;
+}
+.col:hover {
+    transform: scale(1.1);
+
+}
+.col:hover::after {
+    transition: all ease-out;
+}
+
+.red {
+    background-color: #ce2029;
+    box-shadow: 2px 2px #ce2029;
+}
+.orange {
+    background-color: #ff8800;
+    box-shadow: 2px 2px #ff8800;
+}
+.yellow {
+    color: grey;
+    background-color: #ffff00;
+    box-shadow: 2px 2px #ffff00;
+}
+.green {
+    background-color: #008000;
+    box-shadow: 2px 2px #008000;
+
+}
+.blue {
+    background-color: #0000ff;
+    box-shadow: 2px 2px #0000ff;
+
+}
+.indigo {
+    background-color: #791cf8;
+    box-shadow: 2px 2px #791cf8;
+
+}
+.violet  {
+    background-color: #8806ce;
+    box-shadow: 2px 2px #8806ce;
+}
+
+/* <--- Fonts Sections ---> */
+
+.fonts {
+    width: 30%;
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid magenta;
+}
+.seymour  {
+    font-family: "Seymour One";
+}
+.bebas p{
+    font-family: "Bebas Neue";
+}
+.abel p{
+    font-family: Abel;
+}
+
+/* <--- Text Style ---> */
+.styles {
+    background-color: cyan;
+    padding: 10px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 5px;
+}
