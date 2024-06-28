@@ -76,6 +76,7 @@ h5 {
 }
 
 .profile-pic {
+  visibility: hidden; /*Hiiden while working on the project, makes me uncomfortable looking at myself while working */
   width: 250px;
   height: 250px;
   object-fit: scale-down;
