@@ -31,7 +31,9 @@ h4 {
 h5 {
   margin-top: 0.5rem;
 }
-
+p {
+  color: black;
+}
 /* Navigation Bar */
 
 .nav-bar {
