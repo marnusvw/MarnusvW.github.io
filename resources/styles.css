@@ -24,11 +24,14 @@ h2 {
 
 h3 {
   margin-top: 0.5rem;
+  font-size: 1.3rem;
 }
 h4 {
+  font-size: 1.2rem;
   margin-top: 0.5rem;
 }
 h5 {
+  font-size: 1.1rem;
   margin-top: 0.5rem;
 }
 p {
@@ -106,7 +109,7 @@ p {
 
 .website-image {
   width: 400px;
-  height: 300px;
+  height: 200px;
   object-fit: scale-down;
 }
 
@@ -121,6 +124,7 @@ p {
   margin-top: 0.5rem;
 }
 .project-card li {
+  font-size: 1.2rem;
   margin-left: 1.5rem;
   list-style-type: circle;
 }
