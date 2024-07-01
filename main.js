@@ -12,8 +12,7 @@ function gmailShare(url) {
 }
 function githubShare(url) {
   window.open(
-    (url =
-      "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=marnusvw7@gmail.com&body=my-text"),
+    (url = "https://github.com/marnusvw"),
     "_blank",
     "sharer",
     "toolbar=0,status=0,width=648,height=395"
@@ -22,3 +21,4 @@ function githubShare(url) {
 }
 
 social_share.addEventListener("click", gmailShare);
+git_page.addEventListener("click", githubShare);
